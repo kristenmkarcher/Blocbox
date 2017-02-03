@@ -27,6 +27,7 @@ p {
 .container {
   margin-right: auto;
   margin-left: auto;
+  margin-top: 20px;
   padding-left: 15px;
   padding-right: 15px;
   position: relative;
@@ -456,16 +457,17 @@ footer p, footer nav ul{
   width: 80%;
 }
 
-table img {
-  height: 160px;
-  width: 240px;
-  float: left;
-  margin: 2px;
+/* Images */
+.img-grid-row {
+  width: 100%;
 }
 
-table {
-  border-collapse: separate;
-  border-spacing: 30px;
+.img-grid-cell img {
+  height: 150px;
+  width: 20%;
+  margin: 2% 2%;
+  display: inline-block;
+  float: left;
 }
 
 
