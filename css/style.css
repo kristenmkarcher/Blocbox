@@ -191,7 +191,7 @@ header .hero img {
 
 .box.middle {
   min-height: 485px;
-  margin-top:0px;
+  margin-top: 25px;
 }
 
 .box h3 {
@@ -302,10 +302,6 @@ header .hero img {
   text-align: left;
   font-size:13px;
   margin-top: 30px;
-}
-
-.testimonials-shift {
-  margin-top:20px;
 }
 
 /* FOOTER */
@@ -443,11 +439,19 @@ footer p, footer nav ul{
   .container {
     width: 1115px;
   }
+
+  .testimonials-shift {
+    margin-top:20px;
+  }
 }
 
 @media (min-width: 1200px) {
   .container {
     width: 1170px;
+  }
+
+  .testimonials-shift {
+    margin-top:20px;
   }
 }
 
