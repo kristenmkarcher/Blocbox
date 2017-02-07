@@ -445,16 +445,6 @@ footer p, footer nav ul{
   }
 }
 
-@media (min-width: 1200px) {
-  .container {
-    width: 1170px;
-  }
-
-  .testimonials-shift {
-    margin-top:20px;
-  }
-}
-
 .dashboard-img {
   height: 80%;
   width: 80%;
@@ -638,6 +628,14 @@ footer p, footer nav ul{
   .content-item {
     width: 23%;
     margin: 0 1% 25px;
+  }
+}
+@media (min-width: 1200px) {
+  .content > .container {
+    width: 1170px;
+  }
+  .testimonials-shift {
+    margin-top:20px;
   }
 }
 .item-box > img {
