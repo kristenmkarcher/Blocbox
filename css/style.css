@@ -554,6 +554,9 @@ footer p, footer nav ul{
   margin-right: 10px;
   margin-top: 8px;
 }
+.items ul li:active {
+  background-color: #3E556D;
+}
 
 /* CONTENT */
 .content {
