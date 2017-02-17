@@ -549,6 +549,9 @@ footer p, footer nav ul{
   left: 0;
   right: 0;
   padding: 10px 0;
+  border-width: 8px 8px 0px 8px;
+  top: inherit;
+  bottom: -8px;
 }
 .left-nav .settings img {
   height: 35px;
@@ -575,6 +578,37 @@ footer p, footer nav ul{
 .items ul li:active {
   background-color: #3E556D;
 }
+
+.left-nav .settings .dropit .dropit-open .dropit-submenu {
+  bottom: 100%;
+  top: inherit;
+  margin: 0 0 20px;
+  width: 150px;
+}
+
+.left-nav .settings .dropit .dropit-open .dropit-submenu:after {
+    content: " ";
+    position: absolute;
+    border-style: solid;
+    border-width: 8px 8px 0px 8px;
+    border-color: #ffffff transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+    right: 10px;
+}
+
+.left-nav .settings ul .dropit-submenu:after {
+  border-width: 8px 8px 0px 8px;
+  top: inherit;
+  bottom: -8px
+}
+
+.left-nav .settings ul li {
+  padding: 5px 0;
+}
+
+
 
 /* CONTENT */
 .content {
