@@ -586,6 +586,10 @@ footer p, footer nav ul{
   width: 150px;
 }
 
+.left-nav .settings .dropit .dropit-open .dropit-submenu li a {
+  float: left;
+}
+
 .left-nav .settings .dropit .dropit-open .dropit-submenu:after {
     content: " ";
     position: absolute;
@@ -608,7 +612,13 @@ footer p, footer nav ul{
   padding: 5px 0;
 }
 
+.left-nav .settings ul.account-menu.dropit {
+  margin: 0;
+}
 
+.left-nav .settings ul li.dropit-trigger {
+  padding: 0;
+}
 
 /* CONTENT */
 .content {
